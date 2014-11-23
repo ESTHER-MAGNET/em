@@ -45,7 +45,7 @@ table{border-collapse:collapse;border-spacing:0}table{max-width:100%;border-coll
 #banner .intro{font-size:21px;color:#FFF;line-height:1.33;margin:0;filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=75);opacity:0.75}
 #banner .btn,#banner .intro{margin-left:4px}
 #banner img{margin-top:20px}
-#banner .img-holder{display:none}@media all and (min-width: 960px){#banner{height:303px;padding:0}
+#banner .img-holder{display:none}@media all and (min-width: 960px){#banner{height:353px;padding:0}
 #banner:after{content:none}
 #banner .copy{background:#000;background:rgba(0,0,0,0.5);padding:5px;margin-top:160px;width:59.20635%;float:left;margin-right:1.5873%;display:inline}}
 #footer{border-top:1px solid #edeff1;margin:0 auto;padding:12px 0;color:#999;overflow:hidden}
