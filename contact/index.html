@@ -1,53 +1,49 @@
 ---
-  layout: base
-  title: Blog
+layout: base
+title: Contact
 ---
 
 <div class="page-title-bar">
   <div class="inner-content">
-    <h2>Blog</h2>
+    <h2>{{page.title}}</h2>
   </div>
 </div>
-
-<div id="blog">
-  <div id="blog-content">
-    {% for post in site.posts %}
-    <article>
-      <header>
-        <h1><a href="{% unless site.baseurl == "/" %}{{ site.baseurl }}{% endunless %}{{ post.url }}">{{ post.title }}</a></h1>
-        <p>Posted on {{ post.date | date: "%B %d, %Y" }} by Wolfr</p>
-      </header>
-      <div class="entry-content">
-        {{ post.content }}
-      </div>
-    </article>
-    {% endfor %}
   
-    {% if paginator.page %}
-    <div id="paginator" class="content">
-      {% if paginator.next_page %}
-      <a href="/page{{ paginator.next_page }}/">Older entries</a>
-      {% endif %}
-      {% if paginator.previous_page %}
-      <a href="/page{{ paginator.previous_page }}/">Newer entries</a>
-      {% endif %}
-    </div>
-    {% endif %}
 
-  </div>
-  <div id="blog-nav">
-    <h4>Welcome to the {X} blog</h4>
-    <p>The latest and greatest on {X}. <a href="https://twitter.com/your-handle">Follow us on Twitter</a> or <a href="http://yourdomain.com/atom.xml">subscribe the RSS feed</a> for updates.</p>
+    <hr />
 
-    <h4>Post archive</h4>
-    <ul class="bordered-list">
-      {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span class="date">{{ post.date | date: "%d-%m-%Y" }}</span>
-      </li>
-      {% endfor %}
-    </ul>
+<body>
+    <form method="POST" action="http://forms.brace.io/barteit@uni-heidelberg.de" style="margin: 30px;">
+    
+       <div id="content">
+ 			 <div class="inner-content">
+            <label for="exampleInputName">Name</label>
+            <input name="name" type="name" class="form-control" id="exampleInputName" placeholder="Enter name" email" style="width: 25%;">
+        </div>
 
-  </div>
-</div>
+        <input type="hidden" name="_subject" value="New submission @ESTHER-MAGNET!" />
+    
+        <div class="inner-content">
+            <label for="exampleInputEmail1">Email address</label>
+            <input name="_replyto" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" style="width: 25%;">
+        </div>
+
+        <input type="text" name="_gotcha" style="display:none" />
+    
+        <div class="inner-content">
+            <label for="exampleTextArea">Some text</label>
+            <textarea name="message" class="form-control" rows="3" placeholder="Enter text" email" style="width: 25%;"></textarea>   
+
+
+        </div>
+        	<div class="inner-content">
+        		<button type="submit" class="btn btn-primary">Submit</button>
+    		</div>
+       </div>
+             
+        
+
+    </form>
+
+</body>
+</html>

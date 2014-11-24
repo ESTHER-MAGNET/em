@@ -1,0 +1,43 @@
+<table class="table">
+    <tbody>
+        <tr>
+            <th>
+               Name
+            </th>
+            <th>
+                About
+            </th>
+            <th>
+               
+            </th>
+        </tr>
+      {% for element in site.pages %}
+        {% if element.type == include.type %}
+        <tr>
+          <td>
+               <p>{{element.title}}</p>                    
+          </td>
+
+          <td>
+            <ul> 
+              {% if element.project %}
+                <li>{{element.project}}</li>
+              {% endif %}
+              <li>{{element.meta}}</li>
+              {% if element.publication %}
+                <li><a href="{{element.publication}}" target='_blank'>&#8594; Publications</a></li>
+              {% endif %}
+              <a href="mailto: {{element.mail}} "> &#8594; Email</a>
+            </ul>
+                            
+          </td>
+          <td>              
+           <p><img src="{{site.baseurl}}/project/team/img/{{element.image}}" alt="{{element.title}}" style="float:left; width: 125px; height: auto;"></p>
+          </td>
+      </tr>
+        {% endif %}
+      {% endfor %} 
+          </tbody>
+    </table>
+        
+

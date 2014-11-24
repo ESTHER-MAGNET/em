@@ -33,159 +33,7 @@
 
       <h3 id="team">Team</h3>
       <p>The Team behind the ESTHER-MAGNET Project:</p>
-
-            <table class="table">
-          <tbody>
-              <tr>
-                  <th>
-                      Name
-                  </th>
-                  <th>
-                      About
-                  </th>
-                  <th>
-                      
-                  </th>
-              </tr>
-
-              <tr>
-                  <td>
-                       Dr. Florian Neuhann
-                    
-                  </td>
-
-                  <td>
-                   <p>- Project Coordinator</p>
-                   <p>- Senior Researcher</p>
-                   <p><a href="mailto: florian.neuhann@uni-heidelberg.de"> &#8594; Email</a></p>
-                   <a href="https://www.researchgate.net/profile/Florian_Neuhann" target='_blank'>&#8594; Publications</a> 
-                                       
-                  </td>
-                  <td>              
-                  <img src="{{site.baseurl}}/project/team/img/neuhann_florian.png" alt="Dr. Florian Neuhann" style="float:left; width: 125px; height: auto;">
-                  </td>
-              </tr>
-              <tr>
-                  <td>
-                      Dr. Jonathan Ngoma
-                  </td>
-                  <td>
-                      <p>- Medical Specialist</p>
-                      <p>- MBBS, FCP (SA)</p>
-                      <p>- Hospital Director of Kamuzu Central Hospital</p>
-                  </td>
-                  <td>
-                      <img src="{{site.baseurl}}/project/team/img/ngoma_jonathan.png" alt="Dr. Jonathan Ngoma" style="float:left; width: 125px; height: auto;">
-                  </td>
-              </tr>
-
-              <tr>
-                  <td>
-                      Dr. Tonera Chiume
-                  </td>
-                  <td>
-                    <p>- E-learning Coordinator</p>
-                    <p>- Registrar Medical Doctor</p>
-                
-                     <p><a href="mailto: tonerachiume@gmail.com"> &#8594; Email</a></p>
-                      
-                  </td>
-                  <td>
-                     <img src="{{site.baseurl}}/project/team/img/chiume_tonera.png" alt="Dr. Tonera Chiume" style="float:left; width: 125px; height: auto;">
-                  </td>
-              </tr>
-
-              <tr>
-                  <td>
-                      Sandra Barteit
-                  </td>
-                  <td>
-                    <p>- E-learning Platform Administration, Server Administration, Website Management</p>
-                    <p>- Scientific Researcher</p>
-                     <p><a href="mailto: barteit@uni-heidelberg.de"> &#8594; Email</a></p>
-                      
-                  </td>
-                  <td>
-                     <img src="{{site.baseurl}}/project/team/img/barteit_sandra.png" alt="Sandra Barteit" style="float:left; width: 125px; height: auto;">
-                  </td>
-              </tr>
-
-              <tr>
-                  <td>
-                      Felix Kaliza
-                  </td>
-                  <td>
-                    <p>- E-learning Coordinator</p>
-                    <p>- Clinical Officer</p>
-                     <p><a href="mailto:felixkaliza@yahoo.co.uk"> &#8594; Email</a></p>
-                      
-                  </td>
-                  <td>
-                     <img src="{{site.baseurl}}/project/team/img/kaliza_felix.png" alt="Felix Kaliza" style="float:left; width: 125px; height: auto;">
-                  </td>
-              </tr>
-
-              <tr>
-                  <td>
-                      Howard Namuku
-                  </td>
-                  <td>
-                    <p>- ICT Manager Kamuzu Central Hospital</p>
-                    <p>- ICT Project Administration </p>
-                     <p><a href="mailto:namukuhg@gmail.com"> &#8594; Email</a></p>
-                      
-                  </td>
-                  <td>
-                     <img src="{{site.baseurl}}/project/team/img/namuku_howard.png" alt="Howard Namuku" style="float:left; width: 125px; height: auto;">
-                  </td>
-              </tr>
-
-               <tr>
-                  <td>
-                      Charles Machika
-                  </td>
-                  <td>
-                    <p>- ICT Lighthouse </p>
-                    <p>- Server Administration </p>
-                     <p><a href="mailto:charles@lighthouse.org.mw"> &#8594; Email</a></p>
-                      
-                  </td>
-                  <td>
-                     <img src="{{site.baseurl}}/project/team/img/machika_charles.png" alt="Charles Machika" style="float:left; width: 125px; height: auto;">
-                  </td>
-              </tr>
-
-              <tr>
-                  <td>
-                      Philip Hoepffner
-                  </td>
-                  <td>
-                    <p>- Medical Doctor </p>
-                     <p><a href="mailto: hoepffnertropmedhd@googlemail.com"> &#8594; Email</a></p>
-                      
-                  </td>
-                  <td>
-                     <img src="{{site.baseurl}}/project/team/img/hoepffner_philip.png" alt="Philip Hoepffner" style="float:left; width: 125px; height: auto;">
-                  </td>
-              </tr>
-
-              <tr>
-                  <td>
-                      Dr. Antje Theurer
-                  </td>
-                  <td>
-                    <p>- Medical Doctor </p>
-                     <p><a href="mailto: antjetheurer@gmail.com"> &#8594; Email</a></p>
-                      
-                  </td>
-                  <td>
-                     <img src="{{site.baseurl}}/project/team/img/theurer_antje.png" alt="Antje Theurer" style="float:left; width: 125px; height: auto;">
-                  </td>
-              </tr>
-              
-          </tbody>
-      </table>
-
+      {% include table-team.html type='team-member' %}
       <hr>
 
       <h3 id="publications">Publications</h3>
@@ -206,11 +54,15 @@
       </ul>
        <h4>Videos</h4>
             <ul id="materials">
-              <div class="video-wrapper">
-  <iframe width="600" height="400" frameborder="none" src="{{site.baseurl}}/files/esther_magnet_film.mp4" allowfullscreen="allowfullscreen="> </iframe>
-</div>
-         <li> <a href="{{site.baseurl}}/files/esther_magnet_film.mp4" target='_blank'><img src="{{site.baseurl}}/files/esther_magnet_film.png" style="max-width:75%;height:auto;"> </a> </li>
-         <li> <a href="{{site.baseurl}}/files/EM_Video.mp4" target='_blank'><img src="{{site.baseurl}}/files/EM_Video.png" style="max-width:75%;height:auto;"> </a> </li>
+
+        <p><div class="video-wrapper">
+          <iframe width="600" height="400" frameborder="none" src="http://www.youtube.com/embed/" allowfullscreen="allowfullscreen="> </iframe>
+        </div></p>
+
+        <p><div class="video-wrapper">
+          <iframe width="600" height="400" frameborder="none" src="https://www.youtube.com/embed/CO4VkATidxI" allowfullscreen="allowfullscreen="> </iframe></p>
+        </div>
+
       </ul>
     </article>
   </div>
