@@ -3,7 +3,7 @@
  <title>My RSS feed</title>
  <link href="http://mydomain.com/atom.xml" rel="self"/>
  <link href="http://mydomain.com/"/>
- <updated>2014-11-24T13:40:30+01:00</updated>
+ <updated>2014-11-24T13:44:50+01:00</updated>
  <id>http://mydomain.com/</id>
  <author>
    <name>Firstname Lastname</name>
@@ -12,7 +12,7 @@
  
  <entry>
    <title>A post with some code</title>
-   <link href="http://mydomain.com/2013/06/16/code-post.html"/>
+   <link href="http://mydomain.com/2013/06/16/code-post/"/>
    <updated>2013-06-16T12:26:00+02:00</updated>
    <id>http://mydomain.com/2013/06/16/code-post</id>
    <content type="html">&lt;p&gt;Blog post with some code. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.&lt;/p&gt;
@@ -28,7 +28,7 @@
  
  <entry>
    <title>Dolor sit amet</title>
-   <link href="http://mydomain.com/2013/06/13/dolor-sit-amet.html"/>
+   <link href="http://mydomain.com/2013/06/13/dolor-sit-amet/"/>
    <updated>2013-06-13T17:00:00+02:00</updated>
    <id>http://mydomain.com/2013/06/13/dolor-sit-amet</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
@@ -44,7 +44,7 @@
  
  <entry>
    <title>Intro video</title>
-   <link href="http://mydomain.com/2013/06/05/post-with-a-video.html"/>
+   <link href="http://mydomain.com/2013/06/05/post-with-a-video/"/>
    <updated>2013-06-05T00:00:00+02:00</updated>
    <id>http://mydomain.com/2013/06/05/post-with-a-video</id>
    <content type="html">&lt;p&gt;Post with a video to demonstrate fluid videos.&lt;/p&gt;
@@ -57,7 +57,7 @@
  
  <entry>
    <title>Lorem ipsum</title>
-   <link href="http://mydomain.com/2013/06/05/lorem-ipsum.html"/>
+   <link href="http://mydomain.com/2013/06/05/lorem-ipsum/"/>
    <updated>2013-06-05T00:00:00+02:00</updated>
    <id>http://mydomain.com/2013/06/05/lorem-ipsum</id>
    <content type="html">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
